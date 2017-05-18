@@ -7,12 +7,22 @@ h1{
 	width: 200px;
 	background-color: #ffff00;
 	border: 2px solid black;
+	/* transform: translate(0px,0px); */
+
 	transition: all 2s;
 }
 
 .square:hover{
 	background-color: red;
-	border-radius: 50%;
+	/* border-radius: 50%; */
+	/* Scale down 20% both x and y */
+	/* transform: scale(.2); */
+	/* scale x down 20%, scale y up 5x */
+	/* transform: scale(.2,5); */
+	/* move the element by 1000px in the x direction */
+	/* transform: translateX(1000px); */
+	/* transform: rotate(45deg); */
+	transform: skew(45deg)
 }
 
 .transform-box{
